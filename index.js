@@ -1,15 +1,6 @@
-import React, { Component, Fragment } from 'react'
-import ReactDOM from 'react-dom'
-import './scss/main.scss'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class Main extends Component {
-  render() {
-    return (
-      <Fragment>
-        <h1>Parcel React boilerplate</h1>
-      </Fragment>
-    )
-  }
-}
+import App from './App';
 
-ReactDOM.render(<Main />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));

@@ -1,13 +1,17 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
+import Week from './components/Week'
+import { month } from './resources/data'
 import './scss/main.scss'
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Parcel React boilerplate</h1>
-      </Fragment>
+      <>
+        <h1>Weeklyfy</h1>
+        <h2>{month}</h2>
+        <Week />
+      </>
     )
   }
 }
